@@ -114,6 +114,7 @@ android {
 }
 
 dependencies {
+    implementation(libs.androidx.material3.android)
     debugImplementation(compose.uiTooling)
 
  // fix for bug ':composeApp:copyRoomSchemasToAndroidTestAssetsDebugAndroidTest' property 'inputDirectory' is final and cannot be changed any further.
